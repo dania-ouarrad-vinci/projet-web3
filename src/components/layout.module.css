@@ -4,6 +4,12 @@
   font-family: sans-serif;
 }
 
+.navBar {
+  background-color: rgba(184, 182, 182, 0.218);
+  padding: 10px;
+  font-family: sans-serif;  
+}
+
 .heading {
   color: rebeccapurple;
 }
