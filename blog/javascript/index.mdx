@@ -1,0 +1,111 @@
+---
+title: "Javascript"
+date: "2024-11-05"
+slug: "javascript"
+hero_image: "./javascript.png"
+hero_image_alt: "Logo of Javascript"
+hero_image_credit_text: "CopyrightFreePictures"
+hero_image_credit_link: "https://pixabay.com/vectors/javascript-js-logo-source-code-736400/"
+---
+
+import CodeBlock from "../../src/components/CodeBlock";
+
+JavaScript est l'un des langages de programmation les plus populaires et les plus utilisés dans le développement web. Il est essentiel pour ajouter de l'interactivité et des fonctionnalités dynamiques aux sites web. Dans cet article, nous allons explorer les bases de JavaScript, quelques concepts importants et comment démarrer avec ce langage puissant.
+
+## Pourquoi apprendre JavaScript ?
+
+JavaScript est devenu incontournable pour le développement web moderne, en raison de ses nombreux avantages :
+
+- **Langage côté client et côté serveur** : JavaScript fonctionne aussi bien dans le navigateur (grâce à des frameworks comme React) que sur le serveur (avec Node.js).
+- **Communauté massive** : Avec une large communauté, il existe une multitude de bibliothèques et de ressources qui facilitent l'apprentissage et l'utilisation de JavaScript.
+- **Polyvalent** : JavaScript peut être utilisé pour créer des applications web, des applications mobiles, des jeux, et bien plus encore.
+
+## Syntaxe de base
+
+JavaScript utilise une syntaxe relativement simple, ce qui le rend accessible aux débutants. Voici quelques éléments de base pour bien commencer.
+
+### Afficher un message dans la console
+
+Pour afficher un message, on utilise la fonction `console.log()`. Cela vous permet de vérifier des informations dans la console du navigateur (ou du terminal pour Node.js).
+
+<CodeBlock code={`console.log("Hello, JavaScript!");`} />
+
+### Déclaration de variables
+
+En JavaScript, il existe trois mots-clés principaux pour déclarer des variables : `var`, `let`, et `const`.
+
+- `var` : Ancienne façon de déclarer des variables, avec une portée de fonction.
+- `let` : Pour déclarer une variable avec une portée de bloc.
+- `const` : Pour déclarer une constante (sa valeur ne peut pas être modifiée).
+
+Exemple :
+
+<CodeBlock
+  code={`let age = 25;\nconst nom = "Alice";\nconsole.log(age, nom);`}
+/>
+
+## Fonctions
+
+Les fonctions sont des blocs de code qui exécutent une tâche spécifique. En JavaScript, vous pouvez définir une fonction de plusieurs façons, y compris avec la syntaxe `function` et les fonctions fléchées (`arrow functions`).
+
+### Déclaration de fonction classique
+
+<CodeBlock
+  code={`function saluer(nom) {\n  return "Bonjour, " + nom + "!";\n}\nconsole.log(saluer("Alice"));`}
+/>
+
+### Fonction fléchée
+
+Les fonctions fléchées offrent une syntaxe plus concise, particulièrement utile pour les fonctions courtes.
+
+<CodeBlock
+  code={`const saluer = (nom) => "Bonjour, " + nom + "!";\nconsole.log(saluer("Alice"));`}
+/>
+
+## Boucles
+
+Les boucles sont essentielles pour exécuter une séquence d'instructions de manière répétée. En JavaScript, les boucles les plus courantes sont `for`, `while`, et `forEach`.
+
+### Boucle for
+
+La boucle `for` est utile pour itérer un nombre fixe de fois.
+
+<CodeBlock
+  code={`for (let i = 0; i < 5; i++) {\n  console.log("Itération " + i);\n}`}
+/>
+
+### Boucle while
+
+La boucle `while` continue d'exécuter son bloc tant qu'une condition donnée est vraie.
+
+<CodeBlock
+  code={`let compteur = 0;\nwhile (compteur < 5) {\n  console.log("Compteur : " + compteur);\n  compteur++;\n}`}
+/>
+
+## Utiliser JavaScript côté serveur avec Node.js
+
+JavaScript peut également être utilisé côté serveur grâce à Node.js. Cela permet aux développeurs d'écrire du JavaScript pour le backend, ouvrant la voie à des applications web complètes et complexes.
+
+### Installation de Node.js
+
+Pour commencer avec Node.js, installez-le d'abord sur votre machine :
+
+<CodeBlock
+  code={`# Sous macOS\nbrew install node\n\n# Sous Windows, téléchargez Node.js depuis https://nodejs.org\n\n# Vérifiez l'installation\nnode -v`}
+/>
+
+### Exemple simple avec Node.js
+
+Créez un fichier nommé `app.js` :
+
+<CodeBlock code={`console.log("Hello from Node.js!");`} />
+
+Ensuite, exécutez ce fichier avec la commande :
+
+<CodeBlock code={`node app.js`} />
+
+Cela affichera `Hello from Node.js!` dans votre terminal.
+
+## Conclusion
+
+JavaScript est un langage puissant et polyvalent, essentiel pour le développement web moderne. Que vous construisiez une simple page web interactive ou une application web complexe, JavaScript vous fournit tous les outils nécessaires pour réussir. Avec les concepts abordés dans cet article, vous avez une bonne base pour commencer à explorer ce langage plus en profondeur. Bon codage !
