@@ -1,0 +1,58 @@
+---
+title: "Python"
+date: "2021-07-24"
+slug: "python"
+hero_image: "./python.png"
+hero_image_alt: "Logo of Python"
+hero_image_credit_text: "Bryanquille"
+hero_image_credit_link: "https://pixabay.com/vectors/python-programming-technology-8665904/"
+---
+
+import CodeBlock from "../../src/components/CodeBlock";
+
+# Introduction à Python
+
+Python est un langage de programmation populaire, connu pour sa simplicité et sa lisibilité. Il est largement utilisé dans de nombreux domaines comme le développement web, la science des données, l’intelligence artificielle, et l’automatisation.
+
+## Pourquoi apprendre Python ?
+
+- **Facile à lire et à écrire** : Python utilise une syntaxe claire, ce qui en fait un langage parfait pour les débutants.
+- **Polyvalent** : Python peut être utilisé pour développer des applications web, créer des scripts d'automatisation, manipuler des données, et bien plus encore.
+- **Large communauté** : Avec une immense communauté de développeurs, Python offre un support abondant et de nombreuses bibliothèques prêtes à l'emploi.
+
+## Commandes de base en Python
+
+Voici quelques commandes et fonctionnalités essentielles pour bien débuter :
+
+### Afficher un message
+
+La commande `print()` permet d'afficher un message ou une valeur :
+
+<CodeBlock code={`print("Hello, Python!")`} />
+
+### Lire une entrée utilisateur
+
+La commande `input()` permet de lire une entrée de l’utilisateur et de la stocker dans une variable. Cette commande est utile pour interagir avec les utilisateurs dans un programme.
+
+<CodeBlock
+  code={`nom = input("Quel est votre nom ? ")\nprint("Bonjour, " + nom + "!")`}
+/>
+
+## Types de données
+
+Python propose plusieurs types de données pour stocker des informations :
+
+- **Entier** (`int`) : nombres entiers.
+- **Flottant** (`float`) : nombres décimaux.
+- **Chaîne de caractères** (`str`) : texte.
+- **Booléen** (`bool`) : `True` ou `False`.
+
+<CodeBlock code={`age = 25\nprix = 19.99\nnom = "Alice"\nest_membre = True`} />
+
+### Opérations arithmétiques
+
+Python prend en charge les opérations mathématiques de base :
+
+<CodeBlock
+  code={`a = 10\nb = 3\naddition = a + b\nsoustraction = a - b\nmultiplication = a * b\ndivision = a / b\npuissance = a ** b\nmodulo = a % b`}
+/>
