@@ -2,6 +2,8 @@ import * as React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
+import imageComputer from '../images/computer.jpg'
+
 
 const IndexPage = () => {
   return (
@@ -18,9 +20,15 @@ const IndexPage = () => {
         tant que framework de génération de sites statiques.
       </p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, dozing in a bean bag chair"
-        src="../images/clifford.jpg"
+        alt="image d'ordinateur"
+        src="../images/computer.jpg"
       />
+     
+      {/*
+      <h2>Sans le plugin</h2>
+      <img src={imageComputer} alt="Image d'ordinateur sans optimisation"/> 
+      */}
+
     </Layout>
   );
 };
