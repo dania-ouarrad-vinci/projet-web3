@@ -2,7 +2,6 @@ import * as React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
-import imageComputer from '../images/computer.jpg'
 
 
 const IndexPage = () => {
@@ -23,12 +22,6 @@ const IndexPage = () => {
         alt="image d'ordinateur"
         src="../images/computer.jpg"
       />
-     
-      {/*
-      <h2>Sans le plugin</h2>
-      <img src={imageComputer} alt="Image d'ordinateur sans optimisation"/> 
-      */}
-
     </Layout>
   );
 };
