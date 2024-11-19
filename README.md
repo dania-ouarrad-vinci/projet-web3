@@ -1,6 +1,6 @@
 ## Technologie Utilisée
 
-Ce projet est construit avec Gatsby, un framework moderne basé sur React.
+Ce projet a été développé avec Gatsby, un framework moderne basé sur React.
 
 ## Pour commencer à développer ce projet :
 
