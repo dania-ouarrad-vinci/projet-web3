@@ -2,7 +2,7 @@
 
 1. `git clone https://github.com/dania-ouarrad-vinci/projet-web3.git`
 1. `npm install`
-1. `npm run develop`
+1. `npm start`
 
 
 # Objectif Fonctionnel de l'Application
